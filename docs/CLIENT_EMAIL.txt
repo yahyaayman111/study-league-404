@@ -1,0 +1,64 @@
+Hi Yousef,
+
+The 404 Study League is live, and the Vercel project with the study-league-404.vercel.app domain is now under your team 404 account.
+
+LINKS
+- Live app: https://study-league-404.vercel.app
+- Vercel project: https://vercel.com/404-a136/study-league-404
+- Source code: https://github.com/yahyaayman111/study-league-404
+- Full handoff and test plan: https://github.com/yahyaayman111/study-league-404/blob/main/docs/CLIENT_HANDOFF.md
+
+DEMO ACCOUNTS
+- Group Admin: ADMIN-404
+- Student: STU1001
+- Student / Summary Editor: STU1004
+- Platform Admin: OWNER-404
+Additional student codes: STU1002 ... STU1006. The login page has quick-fill buttons.
+
+WHAT WAS DELIVERED
+- Weekly competitions per subject with a full five-stage lifecycle.
+- Handwritten summary uploads, hidden during submission and shown anonymously during voting.
+- Up to 3 votes for different summaries; fewer than 3 is allowed; votes lock permanently.
+- No self-voting, no duplicate votes, and hidden tallies until approval.
+- Historical vote tie-breaker and joint first place, with 3 points each and the prize held until a mutual settlement is recorded.
+- 10 EGP contribution tracking, prize pool, financial ledger, CSV export, and manual settlements.
+- Approved summary library with a default Book Reader (two-page desktop, single-page mobile), locked author attribution, PDF downloads, and bulk ZIP.
+- Per-subject and overall Hall of Fame, annual points, and 404 Annual Champion.
+- Badges separated from roles, RBAC, audit log, and in-app notifications.
+
+PLEASE TEST (30-40 MINUTES, PREFERABLY IN INCOGNITO)
+
+1. STUDENT (STU1001)
+- Open the League.
+- Open "أعلاف الدواجن والطاقة" (voting open). Confirm the summaries are anonymous, your own summary is blocked, select 2 summaries, confirm, and verify the votes lock.
+- Open "هضم الألياف" (submission open), upload 1-2 images, and submit.
+- Open the Library and read a summary in the Book Reader. Switch to Standard View and back, download a PDF, then test "Download all" (ZIP).
+- Check Hall of Fame and My Achievements.
+
+2. SUMMARY EDITOR (STU1004)
+- Confirm the editor sees only the review queue and cannot approve results or publish summaries.
+
+3. GROUP ADMIN (ADMIN-404)
+- Open League > Administration.
+- Results: open "البروتين في علائق الدواجن", verify the 7 vs 7 historical tie and joint first place, then approve.
+- Finance: record the joint-winner settlement (amount, recipients, mandatory notes) and verify the ledger.
+- Roles: grant/revoke Summary Contributor and appoint/remove Summary Editor (a reason is required).
+- Publishing: log in as a joint winner (STU1002 or STU1004), submit the winning summary digitally, then publish it as admin.
+- Audit: confirm the new entries.
+- Optional: close the academic year to see 404 Annual Champion, then use "Reset demo data" to restore the seed.
+
+4. MOBILE
+- Check the League tabs, competition cards, single-page Book Reader, and PDF/ZIP downloads at about 390px width.
+
+IMPORTANT
+- This is a working front-end prototype: data is stored in each browser's localStorage. There is no backend, real authentication, payment gateway, or private file storage yet. Demo data is per device.
+- Use the public alias above. Direct deployment URLs may require a Vercel login.
+- Please enable Vercel 2FA, and rotate the temporary email password if you have not already.
+- If you want automatic deployments, fork the repository to your GitHub and connect it in Vercel. The project is currently deployed via CLI and is not Git-connected.
+
+PLEASE REPLY WITH
+- Any issue found (role, page, steps, screenshot).
+- Your acceptance sign-off or change requests.
+
+Thanks,
+[Your name]

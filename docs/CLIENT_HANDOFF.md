@@ -1,6 +1,6 @@
 # 404 Study League — Client Handoff
 
-**Prepared for:** team404m@gmail.com
+**Prepared for:** Yousef (client)
 **Date:** 25 November 2026
 **Live application:** https://study-league-404.vercel.app
 **Vercel project:** https://vercel.com/404-a136/study-league-404
