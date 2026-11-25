@@ -7,7 +7,7 @@
 - **Inspector:** https://vercel.com/qrmenu-egysa/study-league-404
 - **GitHub:** https://github.com/yahyaayman111/study-league-404
 
-آخر نشر إنتاجي: `dpl_3aGSBScXkMaymJUs5iytD4v3fz4o` — الحالة `READY`، والبناء أكمل `50 modules transformed` بدون أخطاء.
+آخر نشر إنتاجي: `dpl_7jMYhZ3BomrsVVP8PF2UEQwpz6oi` — الحالة `READY`، والبناء (`vite build`) اكتمل بنجاح (50 modules transformed).
 
 ## الحسابات التجريبية
 
