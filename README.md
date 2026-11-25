@@ -14,13 +14,9 @@
 | --- | --- |
 | ![لوحة الدوري](docs/dashboard.png) | ![التصويت](docs/voting.png) |
 
-| قارئ الكتاب | لوحة الشرف |
+| لوحة الشرف | اعتماد المركز المشترك |
 | --- | --- |
-| ![قارئ الكتاب](docs/book-reader.png) | ![لوحة الشرف](docs/hall-of-fame.png) |
-
-| اعتماد المركز المشترك | الجوال |
-| --- | --- |
-| ![المركز المشترك](docs/joint-winner.png) | ![الجوال](docs/mobile.png) |
+| ![لوحة الشرف](docs/hall-of-fame.png) | ![المركز المشترك](docs/joint-winner.png) |
 
 ## التحقق
 
